@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <title>导航站</title>
     <style>
+        hr {
+            height: 3px; /* 设置高度 */
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* 设置渐变背景 */
+            border: none; /* 去除边框 */
+            width:300px;
+            margin: 0px auto; /* 设置边距 */
+        }
         .link-1,
         .link-2,
         .link-3,
@@ -31,11 +38,16 @@
     </style>
 </head>
 <body>
-
 <a href="http://www.sxy10.top:81" class="link-1"><i>软路由后台</i></a>
 <a href="http://www.sxy10.top:81/cgi-bin/luci/admin/services/linkease/file/?path=/root/mnt/mmc1-1" class="link-3"><i>LinkEasy</i></a>
 <a href="http://www.sxy10.top:6086" class="link-2"><i>WEBDAV</i></a>
+<hr>
+<div style="text-align:center;font-size:32px; color:red;">
+    root / root <!-- 在此处放置要居中的文本 -->
+</div>
+<hr>
 <a href="http://192.168.100.1:8080/" class="link-4"><i>AliyunDrive_局域网</i></a>
+<hr>
 <a href="https://www.aliyundrive.com/drive" class="link-4"><i>AliyunDrive_官网</i></a>
 </body>
 </html>
